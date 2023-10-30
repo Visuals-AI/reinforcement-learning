@@ -87,3 +87,8 @@ Selected Papers:
 - [Asynchronous Methods for Deep Reinforcement Learning (2016-02)](http://arxiv.org/abs/1602.01783)
 - [Deep Reinforcement Learning from Self-Play in Imperfect-Information Games (2016-03)](http://arxiv.org/abs/1603.01121)
 - [Mastering the game of Go with deep neural networks and tree search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
+
+
+
+conda create -n RL_GYM python=3.8.16
+conda activate RL_GYM
