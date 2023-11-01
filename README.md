@@ -91,6 +91,6 @@ Selected Papers:
 
 brew install swig
 
-conda create -n RL_GYM python=3.11.6
+conda create -n RL_GYM python=3.11.5
 conda activate RL_GYM
 pip install "gymnasium[all]"
