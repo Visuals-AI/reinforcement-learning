@@ -89,6 +89,8 @@ Selected Papers:
 - [Mastering the game of Go with deep neural networks and tree search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
 
 
+brew install swig
 
-conda create -n RL_GYM python=3.8.16
+conda create -n RL_GYM python=3.11.6
 conda activate RL_GYM
+pip install "gymnasium[all]"
