@@ -90,6 +90,7 @@ Selected Papers:
 
 
 brew install swig
+windows 需要加入环境变量
 
 conda create -n RL_GYM python=3.11.5
 conda activate RL_GYM
