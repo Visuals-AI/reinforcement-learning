@@ -89,8 +89,17 @@ Selected Papers:
 - [Mastering the game of Go with deep neural networks and tree search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
 
 
+
+## 教程
+
+https://gymnasium.farama.org/
+
+
+## 环境搭建
+
 brew install swig
-windows 需要加入环境变量
+
+> windows 需要把 swig.exe 所在目录加入环境变量
 
 conda create -n RL_GYM python=3.11.5
 conda activate RL_GYM

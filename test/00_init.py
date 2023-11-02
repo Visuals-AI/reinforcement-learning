@@ -6,8 +6,8 @@ import gymnasium as gym
 envs = gym.envs.registry.keys()
 print(envs)
 
-# 初始化环境，返回的 env 主要用于用户交互
 # 月球登录车
+# 初始化环境，返回的 env 主要用于用户交互
 env = gym.make("LunarLander-v2", render_mode="human")
 observation, info = env.reset()
 
@@ -19,18 +19,3 @@ for _ in range(1000):
         observation, info = env.reset()
 
 env.close()
-
-
-
-# observation, info = env.reset()
-
-# for _ in range(1000):
-#     action = env.action_space.sample()  # agent policy that uses the observation and info
-#     observation, reward, terminated, truncated, info = env.step(action)
-#     print(observation)
-#     print(reward)
-
-#     if terminated or truncated:
-#         observation, info = env.reset()
-
-# env.close()
